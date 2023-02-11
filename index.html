@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel = "stylesheet" href = "style.css"> 
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>  Kenny's Stock Displayer </title>
+    <div id = "beginningpage">
+    <h1> Make Reliable 
+    <br> and Better Decisions On Your Investments
+    </h1>
+    <h1> Get Real Time Quotes 
+      <br>on Selected Stocks
+    </h1>
+    <img src = "/images/laptop.jpeg" style="position: relative; left: 1100px;" alt = "No Text" width="500" height = "300"/> 
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+ 
+  <body>
+    <p> This can display any the open value of any stock from a designated time period</p>
+    <div id="app"></div>
+    <a href = "cryptocurrency.html"> CryptoCurrency </a>
+   
+
+    
+    <script type = "module" src = "main.js"></script>
+
+    <div id = "displayval"></div>
+  </body>
+  <div> <canvas id="myChart" width = "400" height = "100"></canvas> </div>
+  
+  <div>
+ <input type = "text" placeholder = "Search Whatever" id = "searchbar"> 
+ <button id = "button1"> Search Whatever</button>
+</div>
+  <div class = "chart"></div>
+
+  <script src = "getdata.js"></script>
+</html>

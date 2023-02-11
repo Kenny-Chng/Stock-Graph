@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../node_modules/three"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Graph V2"
+	}
+}
